@@ -1,0 +1,136 @@
+body {
+text-align: justify;
+font-family: sans-serif;
+}
+h1{
+  color:black;
+  font-size: 18px;
+}
+h2{
+  color: brown;
+}
+.head {
+  margin-right: 2em;
+  height: 40px;
+  width: 100%;
+  background-color: orange;
+  position: right;
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  font-family: 'Open Sans';
+  text-align:right;
+  font-size: 18px;
+  color: brown;
+}
+.margin{
+  margin: 1em;
+  font color
+}
+.first {
+  height: 70vh;
+  padding-top: 40vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position:;
+  background-size: 100%;
+  background-image: url(http://whiletravelling.com/wp-content/uploads/wat-pho1-1050x711.jpg);
+  text-align: center;
+  font color: black;
+}
+
+button {
+  background: burlywood;
+  color: brown;
+  padding: 0.2em;
+  border-color: antiquewhite;
+  font-size: 1.5em;
+}
+.centered{
+  text-align: center
+}
+.columns0 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3%;
+  padding: 1em;
+}
+@media screen and (max-width: 560px){
+  .columns0 {
+  grid-template-columns: 1fr;
+}
+}
+.paragraph {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  padding right: 1cm;
+  padding left: 1cm;
+}
+.splash{
+  background-color: orange;
+  background-size: cover;
+  width: 100%;
+  padding: 0.4cm;
+  margin-bottom: 3em;
+}
+.content {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.56fr 0.44fr;
+  grid-gap: 2%; 
+  margin-top: 3em;
+}
+
+.columns1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2%;
+  margin: 3em;
+}
+@media screen and (max-width: 560px){
+  .columns1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 420px) {
+    .columns1 {
+      grid-template-columns: 1fr;
+  }
+}
+
+.massage{
+  background-color: orange;
+  padding-block-start: 1em;
+  padding-block-end: 3em;  
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.columns2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+}
+iframe{
+  width: 98%;
+  height: 78vh;
+  display: block;
+  margin:0em 1em 0.5em;
+  }
+ .orange{
+   background-color: orange;
+   padding-block-start: 1em;
+   padding-block-end: 1em;
+ } 
+
+
+
+
+
+
+
+
+
+ 
