@@ -36,6 +36,7 @@ h2{
   background-image: url(http://whiletravelling.com/wp-content/uploads/wat-pho1-1050x711.jpg);
   text-align: center;
   font color: black;
+  margin: 0 auto; 
 }
 
 button {
@@ -103,8 +104,8 @@ button {
 
 .massage{
   background-color: orange;
-  padding-block-start: 1em;
-  padding-block-end: 3em;  
+  padding-top: 1em;
+  padding-bottom: 3em;  
   padding-right: 1em;
   padding-left: 1em;
 }
